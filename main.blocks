@@ -1,4 +1,13 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="pxt-on-start"></block>
-  <block type="device_forever"></block>
-</xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="function_definition" id="/E]t}q6TI#SLw5%4-Pyl" x="15" y="2"><mutation name="parpadeo" functionid="gp(BTbyakiLun1)oELnr"/><field name="function_name">parpadeo</field><statement name="STACK"><block type="controls_repeat_ext" id="cjxt*8l1/[Z%xrP.9yL;"><value name="TIMES"><shadow type="math_whole_number" id="dB]e]/tuh2h*P/b3*$nY"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="~BjHsf6oP6i3lm5U`u2*"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . #
+        `</field><next><block type="device_pause" id="dA`5rc*`SDIOOD0{hjL}"><value name="pause"><shadow type="timePicker" id="+A`Y?UUpIz}9xu#pGL@d"><field name="ms">200</field></shadow></value><next><block type="device_clear_display" id="(ux^Vl1oj5#vYIZXAwGX"><next><block type="device_show_leds" id="+*vZrP}K5zpL31GW_AV`"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        . # . # . 
+        # . # . # 
+        . # . # .
+        `</field><next><block type="device_pause" id="oONXN2_b7z~IXW5L{Xf+"><value name="pause"><shadow type="timePicker" id="!llW}i@()23nlMKMa5TV"><field name="ms">200</field></shadow></value><next><block type="device_clear_display" id="%p{Lti#^ld29N|wkfRG]"><next><block type="device_pause" id="A!6LtOYc@(jcr35e(-9X"><value name="pause"><shadow type="timePicker" id="RW:VX0:7LFH~c13Znu;Y"><field name="ms">200</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="y%jc)1xwuK|,^4)n?q?8" x="327" y="-9"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="function_call" id="GNJs%{?8!)c9GpY?s=Up"><mutation name="parpadeo" functionid="gp(BTbyakiLun1)oELnr"/></block></statement></block><block type="device_button_event" id=":FCv)Hw)s(yAKU)-NA](" x="330" y="165"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="function_call" id="TRZ~t-ZnhR%UcYyJdFIX"><mutation name="parpadeo" functionid="gp(BTbyakiLun1)oELnr"/></block></statement></block></xml>
